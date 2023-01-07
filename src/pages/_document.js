@@ -42,10 +42,6 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script
-            type="text/javascript"
-            dangerouslySetInnerHTML={{ __html: process.env.rawJsFromFile }}
-          ></script>
         </body>
       </Html>
     );
