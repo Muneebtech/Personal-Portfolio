@@ -1,5 +1,6 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+import Script from 'next/script'
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
@@ -34,14 +35,11 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
-          <script
-            type="text/javascript"
-            dangerouslySetInnerHTML={{ __html: process.env.rawJsFromFile }}
-          ></script>
         </Head>
         <body>
           <Main />
           <NextScript />
+          <Script src={process.env.rawJsFromFile} strategy="lazyOnload"></Script>
         </body>
       </Html>
     );
