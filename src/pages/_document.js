@@ -1,6 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
-
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
@@ -41,7 +40,7 @@ export default class MyDocument extends Document {
           <NextScript />
           <script
             type="text/javascript"
-            src="../../src/entry_script"
+            src="../../src/entry_script.js"
           ></script>
         </body>
       </Html>
