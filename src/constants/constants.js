@@ -43,8 +43,8 @@ export const projects = [
       "Covering all the media coverage, manipulation, clipping, addition of clips, translations into different lanaguages, media coverage.",
     image: "/images/lytics.png",
     tags: ["React", "Node", "mongoDb", "Machine learing", "AWS"],
-    source: "http://125.209.105.142:3030/",
-    visit: "http://125.209.105.142:3030/",
+    source: "http://lytics.systems:3030/",
+    visit: "http://lytics.systems:3030/",
     id: 3,
   },
   {
