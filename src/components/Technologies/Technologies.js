@@ -1,5 +1,6 @@
 import React from "react";
 import { DiAws, DiDatabase, DiFirebase, DiNodejs, DiReact, DiZend } from "react-icons/di";
+import { FaBitcoin, FaMask, FaWallet } from "react-icons/fa";
 import {
   Section,
   SectionDivider,
@@ -19,7 +20,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web development world.
-      From Back-end to Design. Deploying sites on AWS, Aapanel & Cpanel.
+      From Back-end to Design. Deploying sites on AWS, Aapanel, Cpanel & Vercel.
     </SectionText>
     <List>
       <ListItem>
@@ -28,7 +29,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph />
           Experience with <br />
-          React.js & Next.js
+          React.js, Next.js & TypeScript
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -37,7 +38,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph />
           Experience with <br />
-          Node.js, MongoDb & Express.js
+          Node.js, Express.js & Nest,js
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -47,6 +48,15 @@ const Technologies = () => (
           <ListParagraph />
           Experience with <br />
           AWS
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FaWallet size="3rem" />
+        <ListContainer>
+          <ListTitle>Web3</ListTitle>
+          <ListParagraph />
+          Experience with <br />
+          Web3 Wallets
         </ListContainer>
       </ListItem>
     </List>

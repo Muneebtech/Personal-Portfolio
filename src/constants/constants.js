@@ -1,5 +1,33 @@
 export const projects = [
   {
+    title: "Non Fungible Arcade",
+    description:
+      "Non Fungible Arcade is a gaming platform that pays gamers & developers based on performance.",
+    image: "/images/Nfa.jpeg",
+    tags: [
+      "NFT",
+      "Wallets",
+      "Social Logins",
+      "Unity",
+      "Nest",
+      "Next",
+      "TypeScript"
+    ],
+    source: "https://nfa-project.vercel.app/",
+    visit: "https://nfa-project.vercel.app/",
+    id: 0,
+  },
+  {
+    title: "ChatGPT Clone",
+    description:
+      "This Application can be used for a wide variety of tasks. It provides a simple but powerful interface to any of our models. You input some text as a prompt, and the model will generate a text completion that attempts to match whatever context or pattern you gave it. For example, if you give the API the prompt, “Write a tagline for an ice cream shop”, it will return a completion like “We serve up smiles with every scoop!",
+    image: "/images/ChatGPT App.png",
+    tags: ["ChatGPT", "React", "OpenAi"],
+    source: "https://chat-gpt-clone-pied.vercel.app/",
+    visit: "https://chat-gpt-clone-pied.vercel.app/",
+    id: 1,
+  },
+  {
     title: "Nest360",
     description:
       "It is a tv channel monitoring system. Reporting issues related to channels within different organizations.",
@@ -7,7 +35,7 @@ export const projects = [
     tags: ["Mongo", "Express", "React", "Node", "Socket.io"],
     source: "http://dev.nest360.tv/",
     visit: "http://dev.nest360.tv/",
-    id: 0,
+    id: 2,
   },
   {
     title: "Lytics System",
@@ -17,7 +45,7 @@ export const projects = [
     tags: ["React", "Node", "mongoDb", "Machine learing", "AWS"],
     source: "http://125.209.105.142:3030/",
     visit: "http://125.209.105.142:3030/",
-    id: 1,
+    id: 3,
   },
   {
     title: "Resturant Reservation",
@@ -27,18 +55,18 @@ export const projects = [
     tags: ["React", "Firebase", "NodeJs"],
     source: "https://google.com",
     visit: "https://google.com",
-    id: 2,
+    id: 4,
   },
-  {
-    title: "Chatting App",
-    description:
-      "Online communication application, allowiing you to chat with mulitple users whether its one to one or in group. Making communication easy.",
-    image: "/images/chat.png",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
-  },
+  // {
+  //   title: "Chatting App",
+  //   description:
+  //     "Online communication application, allowiing you to chat with mulitple users whether its one to one or in group. Making communication easy.",
+  //   image: "/images/chat.png",
+  //   tags: ["React", "ChatEngine", "Firebase"],
+  //   source: "https://google.com",
+  //   visit: "https://google.com",
+  //   id: 5,
+  // },
 ];
 
 export const TimeLineData = [
